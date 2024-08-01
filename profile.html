@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
     <link rel="stylesheet" href="./assets/css/profile.css" />
+    <script src="./assets/scripts/profile.js" defer></script>
 </head>
 
 <body>
@@ -66,7 +67,7 @@
             <iframe width="560" height="315" src="https://www.youtube.com/embed/gZQo_Hn3wNk?si=xjR5imsJ0dqC7p8F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
 
-        <div class="contact-container">
+        <div id="contact-container" class="contact-container">
             <h2>Contact me</h2>
             <form>
                 <div class="contact-container__name">
@@ -81,7 +82,7 @@
                     <label for="subject">Subject</label><br>
                     <textarea name="subject" id="subject" cols="60" rows="5"></textarea>
                 </div>
-                <button class="contact-container__submit">Send message</button>
+                <button id="contact-btn" type="button" class="contact-container__submit">Send message</button>
             </form>
         </div>
 
