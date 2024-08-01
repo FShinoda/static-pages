@@ -7,7 +7,7 @@ submitBtn.addEventListener("click", () => {
   submitBtn.setAttribute("disabled", true);
   var contactDiv = document.getElementById("contact-container");
   var feedbackText = document.createElement("p");
-  feedbackText.innerText = "form successfully submitted!";
+  feedbackText.innerText = "Form successfully submitted!";
   feedbackText.style.color = "green";
   contactDiv.appendChild(feedbackText);
 });
