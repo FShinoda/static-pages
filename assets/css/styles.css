@@ -1,0 +1,19 @@
+p {
+  font-size: 24px;
+}
+
+#p-first {
+  font-size: 32px;
+  color: crimson;
+  font-weight: bold;
+}
+
+.color-green {
+  color: green;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: ;
+}
